@@ -1,6 +1,6 @@
 <script context="module">
 
-	import ipregistry from '@ipregistry/client'
+    import ipregistry from '@ipregistry/client'
 
     const API_KEY = 'tryout';
     const client = new ipregistry.IpregistryClient(API_KEY, new ipregistry.DefaultCache(16384));
